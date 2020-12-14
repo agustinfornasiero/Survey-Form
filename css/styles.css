@@ -1,0 +1,90 @@
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00334d;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1 + p {
+    margin-top: 0;
+}
+
+#title {
+    color: aliceblue ;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#description {
+    color: aliceblue ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #005580;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 30px 20px;
+    max-width: 450px;
+    margin: 40px auto; 
+}
+
+.form-control {
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-control input, 
+.form-control select,
+.form-control textarea {
+    border: 1px solid #111;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.form-control select {
+    height: 45px;
+}
+
+.form-control input[type="radio"] , 
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color:  #00334d;
+    border: 1px solid #00334d;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    color: white;
+    font-size: 25px;
+}
